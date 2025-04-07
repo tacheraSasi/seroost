@@ -2,7 +2,7 @@ pub struct Lexer<'a> {
     content: &'a [char],
 }
 
-impl<'a> Lexer<'a> {
+impl<'a> Lexer<'a> {     
     pub fn new(content: &'a [char]) -> Self {
         Self { content }
     }
